@@ -1,0 +1,72 @@
+Aim: To create a student registration form using various HTML form controls such as text fields, radio buttons, checkboxes, dropdown menus, and text areas.
+
+Theory
+HTML forms are used to collect user input. A form acts as a container for different types of input elements.
+
+Text Inputs: Used for short data like names and emails.
+
+Radio Buttons & Checkboxes: Used for selecting options from a set.
+
+Dropdown Lists & Text Areas: Used for selecting from multiple choices in a compact space, or entering longer multi-line text (like an address).
+
+Submit Button: Used to send the form data to a server or process it.
+Output Explanation (What to write in your practical book)
+When this code is executed in a web browser, it generates a structured "Student Registration" form:
+
+The page displays a main heading "Student Registration".
+
+Users can type their name and email into standard single-line text boxes.
+
+The Gender section provides two circular radio buttons. Because they share the same name="gender", selecting one will automatically deselect the other.
+
+The Hobbies section provides square checkboxes, allowing the user to select multiple hobbies at once.
+
+The Branch section features a dropdown menu where "Computer Science" can be selected from the list.
+
+The Address section provides a larger, multi-line text box defined by specific rows and columns.
+
+Finally, a Register button is displayed at the bottom to submit the form.
+
+Conclusion
+We have successfully designed an interactive student registration form by implementing various HTML input elements, semantic tags, and form controls.
+
+Description of New Tags & Attributes Used
+1. <meta>
+
+Located in the <head>, this tag provides metadata (information about data) for the HTML document.
+
+charset="UTF-8": This attribute specifies the character encoding, ensuring the browser correctly displays standard text and special characters.
+
+2. <main> and <section>
+
+These are semantic layout tags. <main> defines the main content of the document, while <section> is used to group related content together (in this case, grouping different parts of the form).
+
+3. <form>
+
+The container tag for all the input elements. It acts as the shell that gathers all the user's data to be submitted.
+
+4. <input>
+
+The most versatile form element. Its appearance and function change entirely based on its type attribute:
+
+type="text": Creates a standard single-line text box.
+
+type="email": Creates a text box that automatically validates if the entered text looks like an email address (contains an @ symbol).
+
+type="radio": Creates a radio button. Only one can be selected from a group with the same name.
+
+type="checkbox": Creates a square box that can be ticked or unticked. Multiple can be selected.
+
+type="submit": Creates a clickable button that submits the form.
+
+5. <select> and <option>
+
+<select>: Creates a dropdown list box.
+
+<option>: Used inside the <select> tag to define the individual choices available in the dropdown menu.
+
+6. <textarea>
+
+Creates a multi-line text input field, ideal for longer text like an address or a message.
+
+rows and cols attributes: Define the visible height (rows) and width (columns) of the text area.
